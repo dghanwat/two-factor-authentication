@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "API for 2FA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dghanwat/two-factor-authentication.git"
+  },
+  "keywords": [
+    "2FA"
+  ],
+  "author": "Dhananjay Ghanwat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dghanwat/two-factor-authentication/issues"
+  },
+  "homepage": "https://github.com/dghanwat/two-factor-authentication#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "qrcode": "^1.4.1",
+    "speakeasy": "^2.0.0"
+  }
+}
